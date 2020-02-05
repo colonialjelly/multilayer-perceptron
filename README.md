@@ -6,7 +6,7 @@ This repository contains the implementation for a blog post I wrote about [Multi
 To motivate the problem of going beyond linear classifiers, I'm using a non-linear synthetic dataset, two concentric circles (data generation code is in the notebook).
 
 <p align="center">
-<img src="circles.png">
+<img src="imgs/circles.png">
 </p>
 
 The notebook also contains visualizations of the learned units (pre-activation), the learned hidden transformation that makes the dataset linearly separable and finally the learned decision boundary in the original space.
@@ -16,7 +16,7 @@ The notebook also contains visualizations of the learned units (pre-activation),
 ### Decision Boundary
 The final decision boundary of the MLP in the original space.
 <p align="center">
-<img src="decision_boundary.png">
+<img src="imgs/decision_boundary.png">
 </p>
 
 ### Learned Transformation
@@ -24,12 +24,12 @@ The final decision boundary of the MLP in the original space.
 A 3D visualization of the dataset after applying the hidden layer.
 
 <p align="center">
-<img src="projection.png">
+<img src="imgs/projection.png">
 </p>
 
 ### Learned Units
 The three lines correspond to the 3 neurons that were learned. It is visualized before the activations are applied to them.
 
 <p align="center">
-<img src="hidden_classifiers.png">
+<img src="imgs/hidden_classifiers.png">
 </p>
