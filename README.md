@@ -13,17 +13,23 @@ The notebook also contains visualizations of the learned units (pre-activation),
 
 ## Visualizations
 
+### Decision Boundary
+The final decision boundary of the MLP in the original space.
+<p align="center">
+<img src="decision_boundary.png">
+</p>
+
 ### Learned Transformation
+
+A 3D visualization of the dataset after applying the hidden layer.
+
 <p align="center">
 <img src="projection.png">
 </p>
 
 ### Learned Units
+The three lines correspond to the 3 neurons that were learned. It is visualized before the activations are applied to them.
+
 <p align="center">
 <img src="hidden_classifiers.png">
-</p>
-
-### Decision Boundary
-<p align="center">
-<img src="decision_boundary.png">
 </p>
